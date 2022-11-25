@@ -1,23 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
+import MyLineChart from './Component/MyLineChart/MyLineChart';
+import MyPieChart from './Component/MyPieChart/MyPieChart';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h1 className='text-center font-weight:700 text-stone-500 text-3xl'>
+        This is Prcticing for Tailwind and Recharts.
+      </h1>
+      <MyLineChart></MyLineChart>
+      <MyPieChart></MyPieChart>
     </div>
   );
 }
