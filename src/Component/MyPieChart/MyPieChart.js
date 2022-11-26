@@ -29,7 +29,7 @@ const MyPieChart = () => {
     <div className='mx-auto mt-20'>
       <h1 className='text-3xl text-blue-300 text-center'>This is Pie Chart.</h1>
 
-      <PieChart width={400} height={400}>
+      <PieChart width={800} height={400}>
         <Pie
           data={data}
           cx="50%"
